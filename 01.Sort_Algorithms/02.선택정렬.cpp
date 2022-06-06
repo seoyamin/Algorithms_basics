@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void selectSort(int arr[], int len) {
+void selectionSort(int arr[], int len) {
     int temp; 
     
     for(int i=0 ; i<len ; i++) {
@@ -27,7 +27,7 @@ int main() {
     int arr[] = {40, 10, 50, 90, 20, 80, 30, 60};
     int len = sizeof(arr) / sizeof(int);
     
-    selectSort(arr, len);
+    selectionSort(arr, len);
     
     return 0;
 }
